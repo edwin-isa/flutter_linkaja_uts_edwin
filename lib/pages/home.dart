@@ -220,7 +220,7 @@ class MenuWidget extends StatelessWidget {
         children: [
           Image.asset(
             (icon),
-            height: 48,
+            height: 35,
           ),
           Text(
             title,
@@ -349,8 +349,8 @@ class _BannerCarouselState extends State<BannerCarousel> {
   final List<String> myImages = [
     'assets/images/carosel1.png',
     'assets/images/carosel2.png',
-    'assets/images/carosel1.png',
-    'assets/images/carosel2.png',
+    'assets/images/carosel3.png',
+    'assets/images/carosel4.png',
   ];
 
   int _current = 0;

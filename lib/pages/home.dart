@@ -263,11 +263,11 @@ class CardParent extends StatelessWidget {
           Row(
             children: [
               CardChild(
-                title: 'Saldo Kamu',
+                title: 'Your Balance',
                 balance: '1.000.000',
               ),
               CardChild(
-                title: 'Saldo Bonus',
+                title: 'Saldo Balance',
                 balance: '1.000',
               ),
             ],

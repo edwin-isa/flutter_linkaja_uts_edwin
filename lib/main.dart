@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_linkaja_uts_edwin/pages/home.dart';
+import 'package:flutter_linkaja_uts_edwin/pages/history.dart';
 
 void main() {
   runApp(const MyApp());
@@ -7,6 +9,8 @@ void main() {
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
   static const tabScreens = [
+  HomePages(),
+  HistoryPages(),
   ];
 
   @override
